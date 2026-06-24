@@ -1,0 +1,18 @@
+{
+  "name": "smart-searchbot-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "prod:create": "pm2 start ecosystem.config.js && pm2 save"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.33.4",
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  }
+}

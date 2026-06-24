@@ -1,0 +1,229 @@
+{
+  "searchEngines": [
+    {
+      "name": "google",
+
+      "tokens": [
+        "googlebot",
+
+        "googlebot-image",
+
+        "googlebot-video",
+
+        "googlebot-news",
+
+        "googleother",
+
+        "google-inspectiontool",
+
+        "google-extended",
+
+        "apis-google",
+
+        "adsbot-google",
+
+        "mediapartners-google",
+
+        "storebot-google"
+      ],
+
+      "dnsSuffixes": [".googlebot.com", ".google.com", ".googleusercontent.com"]
+    },
+
+    {
+      "name": "bing",
+
+      "tokens": ["bingbot", "bingpreview", "msnbot", "adidxbot"],
+
+      "dnsSuffixes": [".search.msn.com"]
+    },
+
+    {
+      "name": "yandex",
+
+      "tokens": [
+        "yandexbot",
+
+        "yandeximages",
+
+        "yandexvideo",
+
+        "yandexmedia",
+
+        "yandexblogs",
+
+        "yandexfavicon",
+
+        "yandexwebmaster",
+
+        "yandexmetrika",
+
+        "yandexaccessibilitybot",
+
+        "yandexmobilebot"
+      ],
+
+      "dnsSuffixes": [".yandex.ru", ".yandex.net", ".yandex.com"]
+    },
+
+    {
+      "name": "baidu",
+
+      "tokens": [
+        "baiduspider",
+
+        "baiduspider-image",
+
+        "baiduspider-video",
+
+        "baiduspider-mobile",
+
+        "baiduspider-news"
+      ],
+
+      "dnsSuffixes": [".baidu.com", ".baidu.jp"]
+    },
+
+    {
+      "name": "duckduckgo",
+
+      "tokens": ["duckduckbot"],
+
+      "dnsSuffixes": [".duckduckgo.com"]
+    },
+
+    {
+      "name": "apple",
+
+      "tokens": ["applebot"],
+
+      "dnsSuffixes": [".applebot.apple.com", ".apple.com"]
+    },
+
+    {
+      "name": "seznam",
+
+      "tokens": ["seznambot"],
+
+      "dnsSuffixes": [".seznam.cz"]
+    },
+
+    {
+      "name": "petal",
+
+      "tokens": ["petalbot"],
+
+      "dnsSuffixes": [".petalsearch.com", ".huawei.com"]
+    },
+
+    {
+      "name": "sogou",
+
+      "tokens": ["sogou web spider", "sogou spider"],
+
+      "dnsSuffixes": [".sogou.com"]
+    },
+
+    {
+      "name": "360search",
+
+      "tokens": ["360spider"],
+
+      "dnsSuffixes": [".so.com", ".360.cn"]
+    },
+
+    {
+      "name": "bytespider",
+
+      "tokens": ["bytespider"],
+
+      "dnsSuffixes": [".bytedance.com"]
+    },
+
+    {
+      "name": "coccoc",
+
+      "tokens": ["coccocbot"],
+
+      "dnsSuffixes": [".coccoc.com"]
+    },
+
+    {
+      "name": "naver",
+
+      "tokens": ["yeti"],
+
+      "dnsSuffixes": [".naver.com"]
+    }
+  ],
+
+  "aiCrawlers": [
+    {
+      "name": "openai",
+
+      "tokens": ["gptbot", "chatgpt-user", "oai-searchbot"],
+
+      "dnsSuffixes": [".openai.com"]
+    },
+
+    {
+      "name": "anthropic",
+
+      "tokens": ["claudebot", "claude-web"],
+
+      "dnsSuffixes": [".anthropic.com"]
+    },
+
+    {
+      "name": "perplexity",
+
+      "tokens": ["perplexitybot", "perplexity-user"],
+
+      "dnsSuffixes": [".perplexity.ai"]
+    },
+
+    {
+      "name": "amazon",
+
+      "tokens": ["amazonbot"],
+
+      "dnsSuffixes": [".amazonbot.amazon.com"]
+    },
+
+    {
+      "name": "meta",
+
+      "tokens": ["meta-externalagent", "facebookbot"],
+
+      "dnsSuffixes": [".facebook.com", ".meta.com"]
+    }
+  ],
+
+  "socialAndPreviewBots": [
+    "facebookexternalhit",
+
+    "facebot",
+
+    "twitterbot",
+
+    "linkedinbot",
+
+    "telegrambot",
+
+    "whatsapp",
+
+    "slackbot",
+
+    "discordbot",
+
+    "vkshare",
+
+    "skypeuripreview",
+
+    "pinterestbot",
+
+    "redditbot",
+
+    "w3c_validator"
+  ]
+}

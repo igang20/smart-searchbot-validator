@@ -1,0 +1,14 @@
+node_modules
+*.log
+*.log
+logs/
+public/img/*/*
+public/img/*/*
+public/video/*
+doc
+.DS_Store
+src/temp/*
+*.mp4
+*.log.gz
+*.log
+*.mp4.map.json% 
