@@ -104,6 +104,7 @@ const server = http.createServer(async (req, res) => {
       : `https://${req.headers.host}${req.url}`;
     const parsedUrl = new URL(cleanUrl);
     const rendertronTarget = `${RENDERTRON_URL}/render/${parsedUrl.href}`;
+    req.url = '';
     proxy.web(req, res, {
       target: rendertronTarget,
     });
