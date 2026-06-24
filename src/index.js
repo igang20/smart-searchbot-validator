@@ -98,8 +98,14 @@ const server = http.createServer(async (req, res) => {
     console.log(
       `[${new Date().toISOString()}] Доверенный бот: ${clientIp} | UA: ${userAgent.substring(0, 40)}... -> Rendertron`,
     );
+
+    const cleanUrl = req.url.startsWith("http")
+      ? req.url
+      : `https://${req.headers.host}${req.url}`;
+    const parsedUrl = new URL(cleanUrl);
+    const rendertronTarget = `${RENDERTRON_URL}/render/${parsedUrl.protocol}//${parsedUrl.host}${parsedUrl.pathname}${parsedUrl.search}`;
     proxy.web(req, res, {
-      target: `${RENDERTRON_URL}/render/https://${req.headers.host}${req.url}`,
+      target: rendertronTarget,
     });
   } else {
     // Логируем попытку фейк-запроса, если UA совпал, а DNS — нет
